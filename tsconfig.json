@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "ESNext",
+    "target": "es5",
+    "declaration": true,
+    "lib": ["dom", "es2019"],
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "rootDir": "app",
+    "skipLibCheck": true
+    // "noImplicitReturns": true,
+    // "noImplicitThis": true,
+    // "noImplicitAny": true,
+    // "strictNullChecks": true
+  },
+  "exclude": ["node_modules", "dist", "build-tools", "assets", "package.json"]
+}
